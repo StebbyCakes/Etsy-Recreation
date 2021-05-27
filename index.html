@@ -16,9 +16,9 @@
 
 {{#each shoe}}
   <div class="card col-md-6 col-lg-6">
-  <img src="{{Images.url_fullxfull}}" class="card-img-top" alt="shoes">
-  <div class="card-body">
+  <img src="{{Images.[0].url_fullxfull}}" class="card-img-top" alt="shoes">
     <h5 class="card-title">{{title}}</h5>
+  <div class="card-body">
     <p class="card-text">{{price}}</p>
     <p class="card-text">{{description}}</p>
     <a href="{{url}}" class="btn btn-primary">[READ MORE]</a>
